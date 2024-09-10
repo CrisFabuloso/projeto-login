@@ -23,8 +23,8 @@ section#login {
     overflow: hidden;
 
     background-color: white;
-    width: 250px;
-    height: 515px;
+    width: 260px;
+    height: 533px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.89);
     transition: width 1s, heigt 1s;
@@ -46,49 +46,51 @@ div#formulario > h1 {
     margin-bottom: 10px;
 }
 div#formulario > p {
-   font-size: 0.8em;
+   font-size: 0.5em;
 }
-label {
+div.campo > label {
     display: none;
 }
- .campo {
-    background-color: #7f65b4;
+div.campo {
+    background-color: #5f2c82;
     display: block;
     width: 100%;
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
 }
-.meu-input {
+
+.entrar {
     display: block;
     font-size: 1em;
     width: 100%;
     height: 40px;
-    border: none;
+    background-color: #49a09d;  
+    color: white;   
+    border: none; 
     border-radius: 5px;
-    background-color: #5f2c82;
-    color: white;
     cursor: pointer;
 }
-.meu-input:hover {
-    background-color: #29113a;
+.entrar:hover {
+    background-color: #163534;
+
 }
 .botao {
     display: block;
+    text-align: center;
     font-size: 1em;
     width: 100%;
     height: 40px;
-    border: none;
-    border-radius: 5px;
     background-color: white;
-    color: #29113a;
-    cursor: pointer;
-    padding-top: 5px;
-    margin-top: 5px;
-    border: 1px solid #29113a;
-    border-radius: 7px;
+    border: 1px solid;  
+    color: #163534;   
+    border: none; 
+    border-radius: 5px;
     text-decoration: none;
+    cursor: pointer;
+    padding-top: 7px;
+    margin-top: 5px;
 }
-.material-symbols-outlined {
-    font-size: 0.8em;
+a.botao:hover {
+   background-color: #49a09d
 }
